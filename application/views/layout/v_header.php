@@ -43,7 +43,7 @@
       <div class="col-12">
         <nav class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
           <div class="container-fluid px-0">
-            <a class="navbar-brand font-weight-bolder ms-sm-3" href="" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
+            <a class="navbar-brand font-weight-bolder ms-sm-3" href="<?php echo site_url('home/') ?>" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
               Pondok Pesantren Al Amin
             </a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,6 +83,9 @@
                       <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
                         Tenaga Pendidik
                       </h6>
+                      <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
+                        Program Unggulan
+                      </h6>
                     </div>
                   </div>
                 </li>
@@ -95,7 +98,7 @@
                   <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
                     <div class="d-none d-lg-block">
                       <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
-                        Berita Baru
+                      <a href="<?php echo site_url('fitur/') ?>">Berita Baru</a>
                       </h6>
                     </div>
                   </div>
